@@ -41,7 +41,7 @@ export default function App() {
         <div className="home">
           <Navbar user={user}/>
           <Routes>
-            <Route path="/" element={<Login user={user}/>} />
+            <Route path="/" element={<Login />} />
             <Route path="/home" element={<Main user={user} />} />
             <Route path="/reserver" element={<Reserver user={user} />} />
             <Route path="/verifier" element={<Verifier user={user} />} />
