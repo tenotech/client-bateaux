@@ -36,7 +36,7 @@ export default function App() {
   console.log(user);
 
   return (
-    <BrowserRouter basename="https://bateaux.onrender.com">
+    <BrowserRouter>
       <div className="App">
         <div className="home">
           <Navbar user={user}/>
