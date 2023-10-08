@@ -1,0 +1,75 @@
+.reservation {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 50px;
+  }
+
+  .reservation h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #333;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .reservation-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .span-date {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #0370C5;
+  }
+  
+  .reservation p {
+    font-size: 1.5rem;
+    padding: 0.5rem 0 2rem 0;
+    color: #333;
+  }
+  
+  .reservation-buttons {
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  
+  .reservation .show {
+    font-size: 1.3rem;
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  
+  @media screen and (max-width: 555px) {
+    .reservation h1 {
+      padding: 10px 20px;
+    }
+  
+    .reservation p {
+      font-size: 1.1rem;
+      padding: 0 0 2rem 0;
+    }
+    .reservation .show {
+      padding: 0.6rem 1.1rem;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+  }
+  
+  
