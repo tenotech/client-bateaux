@@ -4,7 +4,7 @@ import "./loginstyle.css";
 const Login = () => {
 
   const google = () => {
-    window.open("https://bateaux.onrender.com/auth/google", "_self")
+    window.open("https://bateaux-api.onrender.com/auth/google", "_self")
   }
 
   return (

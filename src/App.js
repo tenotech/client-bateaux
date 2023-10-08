@@ -13,7 +13,7 @@ export default function App() {
 
   useEffect(()=> {
     const getUser = () => {
-      fetch("https://bateaux.onrender.com/auth/login/success",{
+      fetch("https://bateaux-api.onrender.com/auth/login/success",{
         method: "GET",
         credentials: "include",
         headers: {
